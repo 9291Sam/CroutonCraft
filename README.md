@@ -1,2 +1,2 @@
 # CroutonCraft
-A set of file for the CroutonCraft SCcript
+A set of Files for the CroutonCraft Script
