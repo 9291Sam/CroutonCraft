@@ -43,16 +43,18 @@ sleep 1
 echo "You are now installing Minecraft this will take a while"
 echo ""
 echo "In about 15-45 Minutes you will be prompted for a Username and a UNIX password (Just a normal password) rembember both of these you will need them later"
-#sudo sh crouton -r xenial -t xfce,audio,xorg,cli-extra -n Minecraft
+sudo sh crouton -r xenial -t xfce,audio,xorg,cli-extra -n Minecraft
 # Goto the home folder in the chroot
 cd /usr/local/chroots/Minecraft/home
 Go into the Users Folder
 cd *
 cd Documents
 wget https://raw.githubusercontent.com/9291Sam/CroutonCraft/master/InstallMinecraft.sh
+chmod 775 InstallMinecraft.sh
 cd ..
 cd Desktop
 wget https://raw.githubusercontent.com/9291Sam/CroutonCraft/master/InstallMinecraft.desktop
+chmod 775 InstallMinecraft.desktop
 echo ""
 echo "Double Click The \"Install Minecraft\" Icon on your desktop when booted"
 echo ""
