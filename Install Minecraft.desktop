@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Install Minecraft
+Comment=Installs Minecraft
+Exec=sh ~/Documents/InstallMinecraft.sh
+Icon=
+Path=
+Terminal=true
+StartupNotify=false
