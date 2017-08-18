@@ -7,5 +7,3 @@ cd Games
 wget -q http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar
 sudo apt-get install oracle-java8-installer
 sudo apt-get update -y; sudo apt-get upgrade -y;
-cd ~/Desktop
-wget Minecraft.desktop
